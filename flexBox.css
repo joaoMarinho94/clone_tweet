@@ -1,0 +1,36 @@
+html, body, #app{
+  height: 100%;
+  margin: 0;
+}
+
+#app{
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+  align-items: center;
+
+  flex-wrap: wrap; /*  abilita quebra de linha */
+  align-content: center;
+}
+
+.box{
+  width: 170px;
+  height: 60px;;
+  margin: 5px;
+  /* flex: 1; faz com que o conteúdo ocupe todo espaço ao pai  */
+}
+
+.red{
+  order: 2;
+  background: red;
+}
+
+.green{
+  order: 3;
+  background: rgb(14, 177, 14);
+}
+
+.blue{
+  order: 4;
+  background: blue;
+}
